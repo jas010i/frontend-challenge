@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat&display=swap" rel="stylesheet"></head>
+
+
+<style>
+
+    body {background-color: hsl(30, 38%, 92%); height: 1000px;}
+
+    div#main-card {display: block; width: 50%; background-color: white; border-radius: 9px; position: absolute; 
+                    left: 25%; top: 25%;}
+    div#main-card-center > img {width: 50%; border-radius: 9px 0 0 9px;}
+
+    h3#h3-perfume {display: inline-block; position: absolute; left: 55%; top: 7%; margin: 0; padding: 0;
+                    font-family: montserrat; color: hsl(228, 12%, 48%); font-size: 1vw; letter-spacing: 1px;
+                        font-weight: 500;}
+
+    p#product-title {display: inline-block; position: absolute; left: 55%; top: 16%; margin: 0%; padding: 0%;
+                        font-family: fraunces; font-size: 2.85vw; line-height: 1;}
+
+    p#product-info {display: inline-block; position: absolute; left: 55%; top: 42.5%; margin: 0%; padding: 0%;
+                        font-family: montserrat; font-size: 1.15vw; line-height: 1.5; color: hsl(228, 12%, 48%);
+                            font-weight: 575;}
+
+    p#product-pricing {display: inline-block; position: absolute; left: 55%; top: 67.5%; margin: 0%; padding: 0%;
+                        font-family: fraunces; font-size: 2.85vw; line-height: 1; color: rgb(70, 133, 70);}
+
+    p#product-discount {display: inline-block; position: absolute; left: 80%; top: 69.5%; margin: 0; padding: 0;
+                     font-family: montserrat; color: hsl(228, 12%, 48%); font-size: 1.1vw;
+                        font-weight: 500; text-decoration: line-through;}
+
+    div > span {width: 40%;height: 10%; background-color: rgb(35, 63, 35); border-radius: 7px; display: inline-block; position: absolute;
+                    top: 82.5%; left: 55%;}
+
+    div > span > img {width: 6%; position: absolute; top: 35%; left: 30%;}
+
+    div > span > p {display: inline-block; position: absolute; left: 40%; top: 27.5%; margin: 0%; padding: 0%;
+                        font-family: montserrat; font-size: 1.2vw; line-height: 1.5; color: hsl(0, 0%, 100%);
+                            font-weight: 575;}
+
+</style>
+
+
+<div id="main-card">
+
+    <div id="main-card-center">
+
+        <img src="/Users/solis/Desktop/product-preview-card-component-main/images/image-product-desktop.jpg" alt="product-image">
+    
+        <h3 id="h3-perfume">P   E   R   F   U   M   E</h3>
+
+        <p id="product-title">
+            Gabreille </br> Essence Eau </br> De Parfum
+        </p>
+
+
+        <p id="product-info">
+            A floral, solar and voluptuous </br>
+            interpretation composed by</br>
+            Olivier Polge, Perfumer-Creator</br>
+            for the House of CHANEL.
+        </p>
+
+        <p id="product-pricing">
+            $149.99
+        </p>
+
+        <p id="product-discount">
+            $169.99
+        </p>
+
+        <div>
+            <span>
+                <img src="/Users/solis/Desktop/product-preview-card-component-main/images/icon-cart.svg">
+                <p>Add to Cart</p>
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+</html>
